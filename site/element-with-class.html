@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Element with Class Selector</title>
+	<style>
+		
+		/* all with class="highlight" */
+		.higlight {
+			background-color: green;
+		}
+
+		/* all p elements with class="highlight" */
+		p.higlight {
+			font-style: italic;
+		}
+
+		/* all elements with class "highlight" as well as with class"mainPoint". */
+		.higlight.mainPoint {
+			color: red;
+			background-color: black;
+		}
+	</style>
+</head>
+<body>
+	<h1 class="highlight">Element with Class Selector</h1>
+	<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+	<p class="highlight">This is P with CLASS="highlight"</p>
+	<div class="mainPoint highlight">This is the main point of the entire article.</div>
+</body>
+</html>
