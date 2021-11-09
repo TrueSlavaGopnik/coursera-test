@@ -17,10 +17,6 @@ body {
     margin: 10px 15px 10px 0;
 }
 
-#nav-float {
-    float: left;
-}
-
 .navbar-brand {
     padding-top: 25px;
 }
@@ -37,7 +33,7 @@ body {
     line-height: .75;
 }
 
-.navbar-brand a:hover, .navbar-brand a:focus, .navbar-brand :any-link{
+.navbar-brand a:hover, .navbar-brand a:focus{
     text-decoration: none;
 }
 
