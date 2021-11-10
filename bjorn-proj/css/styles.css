@@ -1,11 +1,11 @@
 body {
     font-size: 16px;
     color: #fff;
-    background-color: #000C66;
+    background-color: #5e6488;
     font-family: 'Oxygen', sans-serif;}
 
 #header-nav {
-    background-color: #338BA8;
+    background-color: #464d6f;
     border-radius: 0;
     border: 0;
 }
@@ -22,9 +22,9 @@ body {
 }
 
 .navbar-brand h1 {
-    font-family: 'Lora', serif;
-    color: #008080;
-    font-size: 1.8em;
+    font-family: 'Bebas Neue', cursive;
+    color: #8f92b9;
+    font-size: 2.8em;
     text-transform: uppercase;
     font-weight: bold;
     text-shadow: 1px 1px 1px #222;
@@ -47,4 +47,30 @@ body {
 .navbar-brand p span {
     vertical-align: middle;
     color: #fbded5;
+}
+
+#navbar-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    color: #17252a;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #a7a9d2;
+}
+
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+#phone {
+    margin-top: 5px;
+}
+
+#phone a {
+    text-align: right;
+    padding-bottom: 0;
 }
