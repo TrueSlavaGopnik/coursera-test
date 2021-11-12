@@ -128,4 +128,14 @@ body {
         font-size: 1em;
         margin-right: 5px;
     }
+
+    #call-btn > a {
+        font-size: 1.5em;
+        display: block;
+        margin: 0 20px;
+        padding: 10px;
+        border: 2px solid #8f92b9;
+        background-color: #3d4468;
+        color: #fbded5;
+    }
 }
