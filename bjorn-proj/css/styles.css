@@ -47,6 +47,7 @@ body {
 .navbar-brand p span {
     vertical-align: middle;
     color: #fbded5;
+    font: bold;
 }
 
 #navbar-list {
