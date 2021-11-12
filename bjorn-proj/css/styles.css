@@ -63,7 +63,7 @@ body {
 }
 
 #nav-list a span {
-    font-size: 1.8em;
+    font-size: 1.5em;
 }
 
 #phone {
@@ -84,8 +84,16 @@ body {
     margin-top: -30px;
 }
 
-@media (min-width: 1200px) {
+.container .jumbotron {
+    box-shadow: 0 0 50px #102021;
+    border: 2px solid #576675;
+}
 
+@media (min-width: 1200px) {
+    .container .jumbotron {
+        background: url("../images/jumbotron-1200.jpg") no-repeat;
+        height: 250px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -93,9 +101,22 @@ body {
         background: url("../images/bjorn-logo.png") no-repeat;
         margin: 5px 5px 5px 0;
     }
+
+    .container .jumbotron {
+        background: url("../images/jumbotron-992.jpg");
+        height: 200px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .navbar-brand {
+        height: 120px;
+    }
+
+    .container .jumbotron {
+        background: url("../images/jumbotron-768.jpg") no-repeat;
+        height: 200px;
+    }
 
 }
 
@@ -137,5 +158,10 @@ body {
         border: 2px solid #8f92b9;
         background-color: #3d4468;
         color: #fbded5;
+    }
+
+    .container .jumbotron {
+        margin-top: 30px;
+        padding: 0;
     }
 }
