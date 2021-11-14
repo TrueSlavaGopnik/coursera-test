@@ -55,10 +55,12 @@ body {
 }
 
 #nav-list a {
+    font-family: 'Anton', sans-serif;
     margin-top: 20px;
     color: #17252a;
     text-align: center;
-    font-size: 15px;
+    font-size: 35px;
+    text-transform: uppercase;
 }
 
 #nav-list a:hover {
@@ -70,12 +72,20 @@ body {
 }
 
 #phone {
-    margin-top: 5px;
+    margin-top: 0;
 }
 
 #phone a {
+    font-family: 'Road Rage', cursive;
     text-align: right;
-    padding-bottom: 0;
+    padding: 0 5px 0 5px;
+    font-size: 15px;
+    background: #c7872a;
+    border-radius: 20px;
+}
+
+#phone a:hover {
+    color: #fbded5;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
@@ -145,7 +155,8 @@ body {
     }
 
     #collapsable-nav a {
-        font-size: 1.2em;
+        font-size: 2em;
+        margin-bottom: 15px;
     }
 
     #collapsable-nav a span {
