@@ -65,6 +65,7 @@ body {
 
 #nav-list a:hover {
     color: #a7a9d2;
+    text-shadow: 2px 2px #c7d7ec;
 }
 
 #nav-list a span {
@@ -86,6 +87,7 @@ body {
 
 #phone a:hover {
     color: #fbded5;
+    text-shadow: none;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
