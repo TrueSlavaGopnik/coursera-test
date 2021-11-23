@@ -158,6 +158,10 @@ body {
     background-position: center;
 }
 
+.blur-tile {
+    filter: blur(5px);
+}
+
 #trending-tile {
     background: url("../images/bjorn-trending.jpg") no-repeat;
     background-position: center;
@@ -175,6 +179,39 @@ body {
     color: #fff;
     opacity: .8;
 }
+
+/*POD Categories Page*/
+.category-tile {
+    position: relative;
+    border: solid #3f0c1f;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 15px auto;
+}
+
+.category-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+}
+
+.category-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#pod-categories-title {
+    margin-bottom: 50px;
+}
+/*End of POD Categories Page*/
+
 
 @media (min-width: 1200px) {
     .container .jumbotron {
