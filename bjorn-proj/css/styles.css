@@ -72,6 +72,11 @@ body {
     font-size: 1.5em;
 }
 
+#active-cat a {
+    color: #a7a9d2;
+    text-shadow: 2px 2px #c7d7ec;
+}
+
 #phone {
     margin-top: 0;
 }
