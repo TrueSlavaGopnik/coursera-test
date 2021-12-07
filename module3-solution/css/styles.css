@@ -1,0 +1,23 @@
+/* Start of Navbar */
+#header-nav {
+    height: 120px;
+    background-color: #24C87C;
+}
+
+
+.navbar-brand h1 {
+    font-size: 2.8em;
+    color: #C8AA24;
+    text-shadow: 1px 1px 1px #555a14;
+}
+
+.navbar-header a:hover, .navbar-header a:focus {
+    text-decoration: none;
+}
+
+.color-button {
+    background-color: #116B2F;
+    margin-top: 35px;
+}
+
+/* End of Navbar */
