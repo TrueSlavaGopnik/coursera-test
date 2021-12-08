@@ -1,14 +1,29 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #097B4B;
+}
+
 /* Start of Navbar */
 #header-nav {
     height: 120px;
     background-color: #24C87C;
+    border-radius: 0;
+    border: 0;
 }
 
+.navbar-header {
+    padding-top: 15px;
+}
 
 .navbar-brand h1 {
     font-size: 2.8em;
     color: #C8AA24;
     text-shadow: 1px 1px 1px #555a14;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+    line-height: .75;
 }
 
 .navbar-header a:hover, .navbar-header a:focus {
@@ -17,7 +32,27 @@
 
 .color-button {
     background-color: #116B2F;
-    margin-top: 35px;
 }
 
+#nav-list a {
+    margin-top: 20px;
+    color: #17252a;
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+#nav-list a:hover, #nav-list a:focus {
+    color: #1BBB78;
+    text-shadow: 1px 1px 1px #169963;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #1ee090
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -20px;
+}
 /* End of Navbar */
