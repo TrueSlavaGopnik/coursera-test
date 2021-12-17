@@ -13,7 +13,7 @@ body {
 }
 
 .navbar-header {
-    padding-top: 15px;
+    padding-top: 5px;
 }
 
 .navbar-brand h1 {
@@ -56,3 +56,20 @@ body {
     margin-top: -20px;
 }
 /* End of Navbar */
+
+@media (max-width: 767px) {
+    .navbar-brand {
+        padding-top: 10px;
+        height: 120px;
+    }
+
+    #collapsable-nav a {
+        font-size: 2em;
+        margin-bottom: 15px;
+    }
+
+    #collapsable-nav a span {
+        font-size: 1em;
+        margin-right: 5px;
+    }
+}
