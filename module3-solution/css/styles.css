@@ -33,6 +33,9 @@ body {
 .color-button {
     background-color: #116B2F;
 }
+#nav-list {
+    margin-top: 10px;
+}
 
 #nav-list a {
     margin-top: 20px;
