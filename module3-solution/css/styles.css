@@ -12,10 +12,6 @@ body {
     border: 0;
 }
 
-.navbar-header {
-    padding-top: 5px;
-}
-
 .navbar-brand h1 {
     font-size: 2.8em;
     color: #C8AA24;
@@ -38,7 +34,6 @@ body {
 }
 
 #nav-list a {
-    margin-top: 20px;
     color: #17252a;
     text-align: center;
     font-size: 35px;
@@ -55,10 +50,21 @@ body {
 }
 
 .navbar-header button.navbar-toggle {
+    margin-top: -80px;
     clear: both;
-    margin-top: -20px;
 }
 /* End of Navbar */
+
+/* Start of Main Content */
+.lorem-ipsum {
+    height: 100%;
+    width: 100%;
+    margin-top: 15px;
+    border: 2px solid #052510;
+    text-align: center;
+    background-color: #36454f;
+}
+/* End of Main Content */
 
 @media (max-width: 767px) {
     .navbar-brand {
@@ -68,11 +74,20 @@ body {
 
     #collapsable-nav a {
         font-size: 2em;
-        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+
+    #collapsable-nav {
+        background-color: #36454f;
     }
 
     #collapsable-nav a span {
         font-size: 1em;
         margin-right: 5px;
+    }
+
+    .lorem-ipsum {
+        width: 70%;
+        margin: 0 auto 15px auto;
     }
 }
