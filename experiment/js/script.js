@@ -62,3 +62,51 @@ for (var i = 0; i < 10; i++) {
     sum = sum + i;
 }
 console.log("The sum of 0 through 9 is: " + sum)
+
+//*****Objects and Function in JavaScript*****
+
+function orderChickenWith (sideDish) {
+    // if (sideDish === undefined) {
+    //     sideDish = "french fries";
+    // }
+    sideDish = sideDish || "french fires";
+    console.log("Chicken with " + sideDish);
+}
+
+orderChickenWith("noodles");
+orderChickenWith();
+
+var c = 10
+if ( (null) || console.log("First Hello") || c > 5) {
+    console.log("Second Hello");
+}
+
+var company = new Object();
+company.name = "Facebook";
+company.ceo = new Object();
+company.ceo.firstName = "Mark";
+company.ceo.favColor = "Blue";
+console.log(company);
+console.log(company.name);
+console.log("First name of Facebooks CEO is: " + company.ceo.firstName);
+console.log(company["name"]);
+company["stock of company"] = 110;
+
+var shareAmount = "Amount of shares";
+company[shareAmount] = 1000000;
+
+console.log("The amount of shares that Facebook has released is " + company[shareAmount])
+console.log(company);
+
+//Better way: Object literal
+
+var facebook = {
+    name: "facebook",
+    ceo: {
+        firstName: "Mark",
+        favColor: "Blue"
+    },
+    "stock of company": 110
+};
+
+console.log(facebook);
