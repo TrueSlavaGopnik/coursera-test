@@ -110,3 +110,100 @@ var facebook = {
 };
 
 console.log(facebook);
+
+//Functions are First-Class Data Types
+//Functions are objects
+function multiply(x,y){
+    return x*y
+}
+
+console.log(multiply(5, 3));
+
+multiply.version = "v.1.0.0";
+console.log(multiply.version);
+
+//Function factory
+function makeMultiplier(multiplier){
+    var myFunc = function (x){
+        return multiplier * x
+    };
+    return myFunc;
+}
+
+var multiplyBy3 = makeMultiplier(3);
+console.log(multiplyBy3(10));
+
+var doubleAll = makeMultiplier(2);
+console.log(doubleAll(10));
+
+function doOperationOn(x, operation){
+    return operation(x);
+}
+
+var result = doOperationOn(5, multiplyBy3);
+console.log(result);
+
+result = doOperationOn(100, doubleAll);
+console.log(result);
+
+//Copy by Reference vs by Value
+var a = 7;
+var b = a;
+console.log("a: " + a);
+console.log("b: " + b);
+
+b = 5;
+console.log("after b update:");
+console.log("a: " + a);
+console.log("b: " + b);
+
+console.log("-----------------------------------");
+
+var a = { x: 7 };
+var b = a;
+console.log(a);
+console.log(b);
+
+b.x = 5;
+console.log("after b.x update:");
+console.log(a);
+console.log(b);
+
+//Pass by reference vs by value
+function changePrimitive(primValue){
+    console.log("in changePrimitive...");
+    console.log("before:"),
+    console.log(primValue);
+
+    primValue = 5;
+    console.log("after:");
+    console.log(primValue);
+}
+
+var value = 7;
+changePrimitive(value);
+console.log("after changePrimitive, original value:"),
+console.log(value);
+
+function changeObject(objValue){
+    console.log("in changeObject...");
+    console.log("before:");
+    console.log(objValue);
+
+    objValue.x = 5;
+    console.log("after:");
+    console.log(objValue);
+}
+
+value = { x: 7};
+changeObject(value);
+console.log("after changeObject, original value");
+console.log(value);
+
+//Function constructors
+function Circle(radius){
+    this.radius = radius;
+}
+
+var myCircle = new Circle(10);
+console.log(myCircle);
