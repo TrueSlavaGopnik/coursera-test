@@ -237,3 +237,40 @@ var literalCircle = {
 
 literalCircle.getArea();
 console.log(literalCircle.getArea());
+
+//*****Arrays*****
+var array = new Array();
+array[0] = "Pasha";
+array[1] = 2;
+array[2] = function (name) {
+    console.log("Hello " + name);
+};
+array[3] = {course: " HTML, CSS & JAVASCRIPT "};
+
+console.log(array);
+console.log(array[1]);
+array[2](array[0]);
+console.log(array[3].course);
+
+//Short hand array creation
+var names = ["Pasha", "John", "Marcus"];
+console.log(names);
+
+for (var i = 0; i < names.length; i++) {
+    console.log("Hello " + names[i]);
+}
+
+var namesTwo = ["Josefin", "Lana", "Amanda"];
+
+var myObject = {
+    name: "Pasha",
+    course: "Webdevelopment",
+    platfrom: "Coursera"
+};
+for (var prop in myObject) {
+    console.log(prop + ": " + myObject[prop]);
+}
+
+for (var name in namesTwo) {
+    console.log("Hello " + namesTwo[name]);
+}
