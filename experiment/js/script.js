@@ -274,3 +274,15 @@ for (var prop in myObject) {
 for (var name in namesTwo) {
     console.log("Hello " + namesTwo[name]);
 }
+
+//Closures
+function makeMultiplier2(multiplier) {
+    return (
+        function(x) {
+            return multiplier * x;
+        }
+    );
+}
+
+doubleAll2 = makeMultiplier2(2);
+console.log(doubleAll2(10));
