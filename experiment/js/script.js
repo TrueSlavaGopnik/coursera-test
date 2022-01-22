@@ -286,3 +286,9 @@ function makeMultiplier2(multiplier) {
 
 doubleAll2 = makeMultiplier2(2);
 console.log(doubleAll2(10));
+
+//Immediatly Invoked Function Expression
+//IIFE
+(function() {
+    console.log("Hello everyone!");
+})();
