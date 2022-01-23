@@ -9,10 +9,10 @@ function sayHello() {
     // document.getElementById("content").textContent = message;
     document.getElementById("content").innerHTML = message;
 
-    if (name === "Blommis") {
+    if (name === "Dilbar") {
         var title = document.querySelector("#title").textContent;
-        title = "Flora är Cringe";
-        message = "<h2>Retard " + name + "!</h2>"
+        title = "När är Pizzan klar?";
+        message = "<h2>Go " + name + " go!</h2>"
         document.querySelector("#title").textContent = title;
         document.getElementById("content").innerHTML = message;
     }
