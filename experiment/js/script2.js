@@ -11,8 +11,8 @@ function sayHello() {
 
     if (name === "Dilbar") {
         var title = document.querySelector("#title").textContent;
-        title = "När är Pizzan klar?";
-        message = "<h2>Go " + name + " go!</h2>"
+        title = "Kan du snälla börja göra pizzan?";
+        message = "<h2>Vi är hungriga " + name + "!</h2>"
         document.querySelector("#title").textContent = title;
         document.getElementById("content").innerHTML = message;
     }
