@@ -16,6 +16,9 @@ function sayHello() {
         document.querySelector("#title").textContent = title;
         document.getElementById("content").innerHTML = message;
     }
+    else {
+        document.querySelector("#title").textContent = "Lecture 53";
+    }
     // if (name === "Flora") {
     //     var title = document.querySelector("#title").textContent;
     //     title = "Floras fel!";
@@ -23,7 +26,4 @@ function sayHello() {
     //     document.querySelector("#title").textContent = title;
     //     document.getElementById("content").innerHTML = message;
     // }   
-    else {
-        document.querySelector("#title").textContent = "Lecture 53";
-    }
 }
