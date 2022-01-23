@@ -16,14 +16,13 @@ function sayHello() {
         document.querySelector("#title").textContent = title;
         document.getElementById("content").innerHTML = message;
     }
-    if (name === "Flora") {
-        var title = document.querySelector("#title").textContent;
-        title = "Floras fel!";
-        message = "<h2>Det är " + name + " som frågar!</h2>"
-        document.querySelector("#title").textContent = title;
-        document.getElementById("content").innerHTML = message;
-    }   
-    }
+    // if (name === "Flora") {
+    //     var title = document.querySelector("#title").textContent;
+    //     title = "Floras fel!";
+    //     message = "<h2>Det är " + name + " som frågar!</h2>"
+    //     document.querySelector("#title").textContent = title;
+    //     document.getElementById("content").innerHTML = message;
+    // }   
     else {
         document.querySelector("#title").textContent = "Lecture 53";
     }
