@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bjorn PODS</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel='stylesheet' href="css/styles.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel='stylesheet' href="../css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
@@ -29,13 +29,13 @@
     <nav id="header-nav" class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
-          <a href="index.html" class="pull-left visible-md visible-lg">
+          <a href="../index.html" class="pull-left visible-md visible-lg">
             <div id="logo-img"></div>
           </a>
           <div class="navbar-brand">
-            <a href="index.html"><h1>Bjorn PODs</h1></a>
+            <a href="../index.html"><h1>Bjorn PODs</h1></a>
             <p>
-              <img src="images/three-crowns.png" alt="Bjorn certification">
+              <img src="../images/three-crowns.png" alt="Bjorn certification">
               <span>Swedish Product</span>
             </p>
           </div>
@@ -49,7 +49,7 @@
         <div id="collapsable-nav" class="collapse navbar-collapse">
           <ul id="nav-list" class="nav navbar-nav navbar-right">
             <li class="visible-xs">
-              <a href="index.html">
+              <a href="../index.html">
                 <span>Home</span>
               </a>
             </li>
@@ -90,35 +90,66 @@
 
   <!--Start of Main Content-->
   <div id="main-content" class="container">
-    <h2 id="pod-categories-title" class="text-center">
-      POD Categories
-    </h2>
-
+    <h2 id="pod-categories-title" class="text-center">PODS</h2>
+    <div class="text-center">
+      These PODs are 800 puffs
+    </div>
     <section class="row">
-      <div class="col-sm-4">
-        <a href="single-category.html">
-          <div class="category-tile">
-            <img src="images/800/front.png" alt="PODS" width="200" height="200">
-            <span>800</span>
+      <div class="pod-category-tile">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="pod-item-photo">
+              <div>800 Puffs</div>
+              <img class="img-responsive" width="250" height="250" src="../images/800/banana-ice.png" alt="POD">
+            </div>
+            <div class="pod-item-price">350₽ <span>(pint)</span> 450₽ 
+              <span>(quart)</span> </div>
+            </div>
+            <div class="pod-item-description col-sm-7">
+              <h3 class="pod-item-tile">Banana Ice</h3>
+              <p class="pod-item-details">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a galley of type and scrambled it to make a type 
+                specimen book. It has survived not only five centuries, but also the leap into 
+                electronic typesetting, remaining essentially unchanged. It was popularised in 
+                the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                and more recently with desktop publishing software like Aldus PageMaker including 
+                versions of Lorem Ipsum.
+              </p>
+            </div>
+            </div>
+            <hr class="visible-xs">
           </div>
-        </a>
-      </div>
-      <div class="col-sm-4">
-        <a href="single-category.html">
-          <div class="category-tile">
-            <img src="images/1500/front.png" alt="PODS" width="200" height="200">
-            <span>1500</span>
-          </div>
-        </a>
-      </div>
-      <div class="col-sm-4">
-        <a href="single-category.html">
-          <div class="category-tile">
-            <img src="images/ursus/front.jpg" alt="PODS" width="200" height="200">
-            <span>Ursus</span>
-          </div>
-        </a>
-      </div>
+
+          <div class="clearfix visible-md-block visible-lg-block"></div>
+
+          <div class="pod-category-tile">
+            <div class="row">
+              <div class="col-sm-5">
+                <div class="pod-item-photo">
+                  <div>800 Puffs</div>
+                  <img class="img-responsive" width="250" height="250" src="../images/800/cola-ice.png" alt="POD">
+                </div>
+                <div class="pod-item-price">350₽ <span>(pint) </span> 450₽ 
+                  <span> (quart) </span> </div>
+                </div>
+                <div class="pod-item-description col-sm-7">
+                  <h3 class="pod-item-tile">Banana Ice</h3>
+                  <p class="pod-item-details">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type 
+                    specimen book. It has survived not only five centuries, but also the leap into 
+                    electronic typesetting, remaining essentially unchanged. It was popularised in 
+                    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                    and more recently with desktop publishing software like Aldus PageMaker including 
+                    versions of Lorem Ipsum.
+                  </p>
+                </div>
+                </div>
+                <hr class="visible-xs">
+              </div>
     </section>
   </div>
   <!--End of Main Content-->
@@ -157,8 +188,8 @@
     </div>
   </footer>
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-2.1.4.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
+  <script src="../js/jquery-2.1.4.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/script.js"></script>
 </body>
 </html>
